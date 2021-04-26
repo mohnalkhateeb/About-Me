@@ -1,4 +1,6 @@
-'usr srtict'
+'use strict'
+let username = prompt('what is your name?')
+alert('Hello '+ username);
 let mood= prompt('are you in good mood? yes or no').toLowerCase()
 switch(mood)
 {
@@ -129,3 +131,4 @@ switch(food)
 
     
 }
+alert('we wish nice mood to you '+ username)
