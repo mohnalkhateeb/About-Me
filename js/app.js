@@ -132,3 +132,22 @@ switch(food)
     
 }
 alert('we wish nice mood to you '+ username)
+let rightnum = 13
+let num1 = parseInt(prompt('please, enter number between 0 and 20'))
+for (let i=1;i<=3;i++)
+{
+    if (num1===rightnum){
+        alert('Congratulations, you got the right answer')
+        break
+    }
+    else if(num1 >= (rightnum-3) && num1 <= (rightnum+3)){
+        alert('You are close to the correct answer, try again')
+        num1 = parseInt(prompt('please, enter number between 0 and 20'))
+    }
+    else
+    {
+        alert('You are far from the correct answer, try again')
+        num1 = parseInt(prompt('please, enter number between 0 and 20'))
+    }
+}
+alert('the right answer is '+rightnum)
