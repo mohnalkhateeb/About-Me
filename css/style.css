@@ -37,3 +37,17 @@ padding-left: 40px;
 li{
     display: list-item;
 }
+.center
+{
+    text-align: center;
+    background-color: blueviolet;
+    border-color: chocolate;
+    border-width: 15px;
+}
+#fin
+{
+    background-color: darkgoldenrod;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    font-style: italic;
+}
