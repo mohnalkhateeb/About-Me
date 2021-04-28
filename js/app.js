@@ -1,6 +1,7 @@
 'use strict'
 let username = prompt('what is your name?')
 alert('Hello '+ username);
+
 let mood= prompt('are you in good mood? yes or no').toLowerCase()
 switch(mood)
 {
@@ -17,6 +18,10 @@ switch(mood)
 
     
 }
+
+
+function Q1();
+
 let sea = prompt('do you like sea ? yes or no').toLowerCase()
 switch(sea)
 {
@@ -36,6 +41,10 @@ switch(sea)
 
     
 }
+Q1();
+
+function Q2();
+
 let forest = prompt('do you like forest ? yes or no').toLowerCase()
 switch(forest)
 {
@@ -55,6 +64,13 @@ switch(forest)
 
     
 }
+
+Q2();
+
+
+function Q3();
+
+
 let desert = prompt('do you like dessert ? yes or no').toLowerCase()
 switch(desert)
 {
@@ -74,6 +90,13 @@ switch(desert)
 
     
 }
+
+Q3();
+
+
+function Q4();
+
+
 let Mountain = prompt('do you like Mountain ? yes or no').toLowerCase()
 switch(Mountain)
 {
@@ -93,6 +116,12 @@ switch(Mountain)
 
     
 }
+
+Q4();
+
+function Q5();
+
+
 let snow = prompt('do you like snow ? yes or no').toLowerCase()
 switch(snow)
 {
@@ -112,6 +141,11 @@ switch(snow)
 
     
 }
+
+Q5();
+
+function Q6();
+
 let food = prompt('are you hungry ? yes or no').toLowerCase()
 switch(food)
 {
@@ -131,6 +165,12 @@ switch(food)
 
     
 }
+
+Q6()
+
+
+function Q7();
+
 alert('we wish nice mood to you '+ username)
 let rightnum = 13
 let num1 = parseInt(prompt('please, enter number between 0 and 20'))
@@ -187,3 +227,5 @@ if (count2 >=(rightnums.length-1)) {
     alert(alert('sorry, the right answer is one of them '+rightnums))
 }
 alert('your score is ' + count1 +'"\"7')
+
+Q7(); 
