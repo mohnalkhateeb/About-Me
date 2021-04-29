@@ -21,6 +21,7 @@ let mood= prompt('are you in good mood? yes or no').toLowerCase()
 switch(mood)
 {
     case "yes":
+        alert('this is good')
     alert('this is good. enjoy')
     break;
     case "no":
