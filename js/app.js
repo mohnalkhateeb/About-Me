@@ -21,7 +21,6 @@ let mood= prompt('are you in good mood? yes or no').toLowerCase()
 switch(mood)
 {
     case "yes":
-        alert('this is good')
     alert('this is good. enjoy')
     break;
     case "no":
@@ -36,12 +35,12 @@ switch(mood)
 }
 
 let pics = ['sea', 'forest', 'derest' , 'Mountain' , 'snow' , 'food']
-let imag = ['<img src="img/sea.jpg" alt="sea">',
-'<img src="img/forest.jpg" alt="forest">',
-'<img src="img/desert.jpg" alt="desert">',
-'<img src="img/mountain.jpg" alt="Mountain">',
-'<img src="img/snow.jpg" alt="snow">',
-'<img src="img/food.jpg" alt="food">']
+let imag = ['<div class = "codeimg"><img src="img/sea.jpg" alt="sea"  width="350" height="300"></div>',
+'<div class = "codeimg"><img src="img/forest.jpg" alt="forest" width="350" height="300"></div>',
+'<div class = "codeimg"><img src="img/desert.jpg" alt="desert" width="350" height="300"></div>',
+'<div class = "codeimg"><img src="img/mountain.jpg" alt="Mountain" width="350" height="300"></div>',
+'<div class = "codeimg"><img src="img/snow.jpg" alt="snow" width="350" height="300"></div>',
+'<div class = "codeimg"><img src="img/food.jpg" alt="food" width="350" height="300"></div>']
 
 function Quastion(word,image)
 {

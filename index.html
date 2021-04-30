@@ -5,13 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohammad Alkhateeb</title>
+    <link rel="icon" href="img/me2.jpg" type="image/jpg" sizes="16x16">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
+        <div id = "topimg"><img src="img/programmer.jpg" alt="programmer" width=100% height="100"></div>
         <h1 class = "center" > Mohammad NoorAldeen Alkhateeb</h1>
-        <ul>
+        <div id= "myimg">
+            <img src="img/me.jpg" alt="Mohammad Alkhateeb" width="300" height="550"> 
+
+        </div>
+        <div id="gmin">
+            <img src="img/gmind.png" alt="groeth mindset" width="300" height="150">
+        </div >
+        <div id="personal">
+            <ul>
             <li>
                 <b>Date of Birth: </b>15th August 1987
             </li>
@@ -25,14 +35,16 @@
                 <b>Nationality :</b>Jordanian
             </li>
             
-        </ul>
+        </ul></div>
+        
        
     </header>
     <main>
         <Article>
             <section>
                 <h2 class = "center">Education</h2>
-                <ul>
+                <div id= "edu">
+                    <ul>
                    <li>
                     <b>MASTER IN COMPUTER ENGINEERING</b>: Jordan University of Science and Technology (J.U.S.T),Irbid, Jordan jun, 2016
                    </li> 
@@ -43,12 +55,15 @@
                     <b>I AM STUDYING A SOFTWARE DEVLEOPMENT  </b>at ASAC-LTUC now
                    </li>
                 </ul>
+            </div>
+                
                   
         </section>
             <section>
                 <h2 class = "center">Experience</h2>
-                <ul>
-                    <li>
+                <div id= "exp">
+                    <ul>
+                    <li >
                         <p> 1/10/2018 – 31/3/2019: <b>Technical Support , Jordan Statistics Department</b>  ,Amman, Jordan</p>
                     </li>
                     <li>
@@ -61,11 +76,16 @@
                         <P>1/09/2010 – 28/2/2012: <b>Technical Support, Jordanian Education initiative </b> , Amman , Jordan</P>
                     </li>
                 </ul>
+            </div>
+                
                 
             </section>
             <section>
                 <h2 class = "center">10 great websites for learning English</h2>
-                <ol>
+                <div id = "eng">
+                    <div id= "engimg"><img src="img/englishimg.jpg" alt="english" width="500" height="300"></div>
+                <div id="engmenu">
+                    <ol>
                     <li><a href="https://www.amigosingleses.com/">www.amigosingleses.com</a></li>
                     
                     <li><a href="https://www.bbc.co.uk/learningenglish">www.bbc.co.uk/learningenglish</a></li>
@@ -79,7 +99,10 @@
                     <li><a href="https://www.talkenglish.com/">www.talkenglish.com</a></li>
                     <li><a href="https://www.ted.com/">www.ted.com</a></li>
 
-                </ol>
+                    </ol>
+                </div>
+            </div>
+                
             </section>
         </Article>
         <Article>
@@ -89,12 +112,13 @@
         </Article>
 
     </main>
+    <script src="js/app.js"> </script>
     <footer>
-
+        <p class="center">CopyRight @Mohammad</p>
     </footer>
 
 
-    <script src="js/app.js"> </script>
+    
     
 </body>
 </html>
