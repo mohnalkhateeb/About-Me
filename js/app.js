@@ -71,20 +71,20 @@ function Quastion6(nm1,nm2)
 {
     if (nm1===nm2){
         alert('Congratulations, you got the right answer')
-        console.log('Congratulations, you got the right answer')
+        
         count1= count1+1;
         corrnum=nm1;
         break
     }
     else if(nm1 >= (nm2-3) && nm1 <= (nm2+3)){
         alert('You are close to the correct answer, try again')
-        console.log('You are close to the correct answer, try again')
+        
         nm1 = parseInt(prompt('please, enter number between 0 and 20'))
     }
     else
     {
         alert('You are far from the correct answer, try again')
-        console.log('You are close to the correct answer, try again')
+        
         nm1 = parseInt(prompt('please, enter number between 0 and 20'))
     }
 }
@@ -101,7 +101,7 @@ function Quastion7(arr1,testnum)
 {
     for (let j = 0; j < arr1.length; j++) {
         if (testnum === arr1[j]) {
-            console.log('yes ,you have correct one ')
+            
             alert('Congratulations, you got the right answer')
             
             flag=1
@@ -122,7 +122,7 @@ for (let k=1;k<=6;k++){
 
 }
 if (count2 >=(rightnums.length-1)) {
-    console.log('sorry it is not one of them')
+    
     alert(alert('sorry, the right answer is one of them '+rightnums))
 }
 alert('your score is ' + count1 +'"\"7')
